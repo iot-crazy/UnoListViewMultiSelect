@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>6279c845-92f8-4333-ab99-3d213163593c</ProjectGuid>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.props" />
+  <PropertyGroup />
+  <Import Project="UnoTryOuts.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.CSharp.targets" />
+  <ItemGroup>
+    <_Globbed_Compile Remove="DataModels\Basket.cs" />
+    <_Globbed_Compile Remove="DispatchedBindableBase.cs" />
+    <_Globbed_Compile Remove="MultiSlectListView.xaml.cs" />
+    <_Globbed_Compile Remove="Product.cs" />
+    <_Globbed_Compile Remove="ProductListView.xaml.cs" />
+    <_Globbed_Compile Remove="ViewModels\BasketViewModel.cs" />
+    <_Globbed_Compile Remove="ViewModels\MainPageViewModel.cs" />
+    <_Globbed_Compile Remove="ViewModels\ProductViewModel.cs" />
+    <_Globbed_Compile Remove="ViewModels\ViewModelBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <_Globbled_Page Remove="MultiSlectListView.xaml" />
+    <_Globbled_Page Remove="ProductListView.xaml" />
+  </ItemGroup>
+</Project>
